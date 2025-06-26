@@ -1,7 +1,19 @@
-# mlops
-# 🛠️ ML Ops Translation Inference Pipeline
+# 🚀 MLOps Translation App
 
-This project is a demonstration of a containerized ML inference pipeline for the ML Ops Engineer Internship task. It uses a Hugging Face transformer model (`Helsinki-NLP/opus-mt-en-de`) served via Flask, containerized with Docker, and mock-deployed with Kubernetes along with monitoring and CI/CD plans.
+This project demonstrates an end-to-end **MLOps pipeline** for deploying a machine translation model using Docker and Kubernetes, with mock CI/CD and monitoring components.
+
+## 📌 Objective
+
+Build a containerized inference service for a Hugging Face model, deploy it locally, and simulate a production-ready ML Ops workflow with logging and redeployment stubs.
+
+---
+
+## 🧠 Model Used
+
+- **Hugging Face Pipeline**: `translation_en_to_de`
+- **Pretrained Model**: [`Helsinki-NLP/opus-mt-en-de`](https://huggingface.co/Helsinki-NLP/opus-mt-en-de)
+
+---
 
 ## 🚀 Quick Start
 
