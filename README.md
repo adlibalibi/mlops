@@ -13,3 +13,13 @@ cd mlops
 # Build and run the Docker container
 docker build -t mlops-translation-app .
 docker run -p 5000:5000 mlops-translation-app
+
+# Test the API
+curl -X POST http://localhost:5000/translate \
+     -H "Content-Type: application/json" \
+     -d '{"text": "Hello, how are you?"}'
+
+# Expected:
+[{"translation_text": "Hallo, wie geht es dir?"}]
+
+
