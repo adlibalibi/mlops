@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+*.egg-info/
+*.log
+.cache/
+*.DS_Store
+*.idea/
+*.vscode/
+docker_images/
